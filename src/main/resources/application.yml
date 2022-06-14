@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: xguszufgedwvtv
+    password: 66c5fe37cd1c4f3ddeb632b6b778d7df88b6f00c6e216aa9835128bf5d5e946d
+    url: jdbc:postgresql://ec2-34-227-120-79.compute-1.amazonaws.com:5432/dcbh85g7p3krmu
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
+  
