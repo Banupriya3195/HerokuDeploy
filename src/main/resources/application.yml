@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: mtgulrdfuqyctd
+    password: 0ef3c9a81519b39c884b8ffd77f5957eb38d76e8ff475c99d74cf93491c96d4c
+    url: jdbc:postgresql://ec2-52-206-182-219.compute-1.amazonaws.com:5432/d4aj3fcdlqo9k0
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: codabanulab@gmail.com
+    password: banu3195@321
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          debug: true
+          ssl:
+            trust: smtp.gmail.com
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 1MB
+      max-file-size: 1MB
+      max-request-size: 1MB
+server:
+   port: 8080
+   
+upload:
+  dir:
+    location:
+      /resources/image
