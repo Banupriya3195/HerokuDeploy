@@ -1,0 +1,23 @@
+jwt:
+   secret: javainuse
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: giyhfqhgakfhic
+    password: 3380168d2e7c5c85405f0be15e8378f99920d0cb6768164a97fcbdd4af4715cf
+    url: jdbc:postgresql://ec2-54-157-16-196.compute-1.amazonaws.com:5432/dcul8f3ameobeb
+    platform: postgres
+    initialization-mode: always
+    continue-on-error: true
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    jdbc: 
+      lob:
+         non_contextual_creation: true
+  main:
+      allow-circular-references: true
+          
