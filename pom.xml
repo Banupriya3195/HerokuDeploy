@@ -11,7 +11,7 @@
 	<groupId>com.javainuse</groupId>
 	<artifactId>spring-boot-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>spring-boot-jwt</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
