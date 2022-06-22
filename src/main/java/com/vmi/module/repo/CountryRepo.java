@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.Countries;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface CountryRepo  extends MongoRepository<Countries, String>{  public abstract Countries findById(String paramString);}

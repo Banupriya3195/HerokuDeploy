@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.Roles;import java.util.List;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface RolesRepo  extends MongoRepository<Roles, String>{  public abstract Roles findById(String paramString);    public abstract List<Roles> findByRoleNotIn(String paramString);}

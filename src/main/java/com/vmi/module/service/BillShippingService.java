@@ -1,0 +1,1 @@
+package com.vmi.module.service;import java.util.Map;import javax.servlet.http.HttpSession;public abstract interface BillShippingService{  public abstract Map<String, Object> saveDetails(Map<?, ?> paramMap, HttpSession paramHttpSession);    public abstract Map<String, Object> getCompanyAdress(String paramString);}

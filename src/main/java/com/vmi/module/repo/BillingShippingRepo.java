@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.IndentStatusTrack;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface BillingShippingRepo  extends MongoRepository<IndentStatusTrack, String>{  public abstract IndentStatusTrack findById(String paramString);}

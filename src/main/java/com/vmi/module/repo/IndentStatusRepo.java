@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.IndentStatus;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface IndentStatusRepo  extends MongoRepository<IndentStatus, String>{  public abstract IndentStatus findById(String paramString);}

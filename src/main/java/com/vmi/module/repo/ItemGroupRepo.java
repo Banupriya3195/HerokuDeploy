@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.ItemGroup;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface ItemGroupRepo  extends MongoRepository<ItemGroup, String>{  public abstract ItemGroup findById(String paramString);}

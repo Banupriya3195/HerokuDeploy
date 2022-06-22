@@ -1,0 +1,1 @@
+package com.vmi.module.repo;import com.vmi.module.model.Applicationproperties;import org.springframework.data.mongodb.repository.MongoRepository;public abstract interface ApplicationPropertiesRepo  extends MongoRepository<Applicationproperties, String>{  public abstract Applicationproperties findByValId(long paramLong);}

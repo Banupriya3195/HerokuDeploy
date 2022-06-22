@@ -1,0 +1,1 @@
+package com.vmi.module.service;import java.util.Map;import com.vmi.module.model.Users;public abstract interface DashboardService {	public abstract Map<String, Object> getCurrentItemZone(Users paramUsers, String paramString);	public abstract Map<String, Object> getDashboardCount(Users paramUsers);	String getSearch(String query, int start, int count);}

@@ -1,0 +1,1 @@
+package com.vmi.module.service;import com.vmi.module.model.Roles;import java.util.Map;import javax.servlet.http.HttpSession;public abstract interface RolesService{  public abstract Map<String, Object> saveDetails(Roles paramRoles, HttpSession paramHttpSession);    public abstract Map<String, Object> getRoles();}
